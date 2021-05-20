@@ -497,8 +497,8 @@ footer span a:hover {
   text-align: center;                  
 }
 .grid > * {
-  background-color: darkgray;
-  color: white;
+  background-color: black;
+  color:orange;
   padding: 2em;
   border-radius: 0.5em;
   font-size: 30px;
