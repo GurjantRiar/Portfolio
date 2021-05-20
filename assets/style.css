@@ -488,7 +488,21 @@ footer span a {
 footer span a:hover {
   text-decoration: underline;
 }
-
+.grid {
+  display: grid;                           
+  grid-template-columns: 1fr 1fr 1fr;      
+  grid-template-rows: 1fr 1fr;             
+  grid-gap: 0.5em;   
+  margin-bottom: 200px;  
+  text-align: center;                  
+}
+.grid > * {
+  background-color: darkgray;
+  color: white;
+  padding: 2em;
+  border-radius: 0.5em;
+  font-size: 30px;
+}
 /* responsive media query start */
 @media (max-width: 1300px) {
   .home .max-width {
@@ -530,6 +544,13 @@ footer span a:hover {
   .navbar .menu.active {
     left: 0;
   }
+  .links{
+    justify-content: space-between;
+    text-align: center;
+    font-size: 30px;
+    background-color: cadetblue;
+  }
+  
   .navbar .menu li {
     display: block;
   }
@@ -585,6 +606,10 @@ footer span a:hover {
   }
   .home .home-content a {
     font-size: 20px;
+  }
+  .links{
+    position: relative;
+
   }
   .services .serv-content .card {
     width: 100%;
