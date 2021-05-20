@@ -13,7 +13,7 @@ Horiseon is a company that already has a webpage built.  They would like to refa
 4. Optimize code on css style sheet by combining repeating coding.  While the css code works, much of it is redundant, and can be combined using proper class targets. 
 
 # 
-![Screenshot 1](assests/screenshot1.png)
+![Screenshot 1](assets/screenshot1.png)
 # 
 ![Screenshot 2](assets/screenshot2.png)
 # 
